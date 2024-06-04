@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<header class="header">
+    <div class="container">
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="#" class="header__link">Потрібна допомога?</a>
+            </li>
+            <li class="header__item">
+                <a href="#" class="header__link">Інформація про доставку</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<body>
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu__board">
+                <div class="menu__logo">
+                    <a href="#">
+                        <img class="logo" src="./icons/logo.svg" alt="Teddy Shop">
+                    </a>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#"> Головна</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="#"> Категорії</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">Новинки</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="#"> Про нас</a>
+                    </li>
+                </ul>
+                <ul class="menu__options-list">
+
+                    <li class="menu__option-item">
+                        <span class="search"></span>
+                    </li>
+
+                    <li class="menu__option-item">
+                        <span class="account"></span>
+                    </li>
+
+                    <li class="menu__option-item">
+                        <span class="favorite"></span>
+                    </li>
+
+                    <li class="menu__option-item">
+                        <span class="cart"></span>
+                    </li>
+
+                </ul>
+                <div class="menu__button">
+                    <button class="menu__button-buy">
+                        <a class="menu__button-text" href="#">Купити зараз</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="welcome">
+        <div class="container">
+            <img class="welcome__image" src="./images/welcome-bg.png" alt="plushies">
+        </div>
+    </section>
+    <section class="collections">
+        <div class="container">
+            <div class="collections__text">
+                <h1 class="collections__title">Досліджуйте та знаходьте свій улюблений на Teddy Shop</h1>
+                <h4 class="collections__subtitle">«Ми раді представити нашу різноманітність нових плюшевих персонажів,
+                    готових бути улюбленими, подарованими або стати вашим новим найкращим другом»</h4>
+            </div>
+            <div class="collections__cards">
+                <ul class="collections__list">
+                    <li class="collections__card">
+                        <img src="./images/first-collection-card.jpeg" alt="cute plushies"
+                            class="collections__card-image">
+                        <p class="collections__card-title">Друзі фантазії</p>
+                        <p class="collections__card-text">Колекція чарівних і фантастичних м'яких іграшок: ідеально
+                            підходить для мрій.</p>
+                    </li>
+                    <li class="collections__card">
+                        <img src="./images/second-collection-card.jpeg" alt="cute plushies"
+                            class="collections__card-image">
+                        <p class="collections__card-title">Вінтажні скарби</p>
+                        <p class="collections__card-text">Колекція ретро, ​​традиційні та історичні плюшеві іграшки, для
+                            нотки ностальгії.</p>
+                    </li>
+                    <li class="collections__card">
+                        <img src="./images/third-collection-card.jpeg" alt="cute plushies"
+                            class="collections__card-image">
+                        <p class="collections__card-title">Дикі пригоди</p>
+                        <p class="collections__card-text">У цій колекції ви знайдете екзотичних тварин, плюшевих іграшок
+                            для будь-яких пригод.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products__title">
+                <h1 class="products__title-text"><i>Магазин для весни</i></h1>
+            </div>
+            <ul class="products__list">
+                <li class="products__item">
+                    <img class="product__image product__teddy" src="./images/first-product.jpeg" alt="cute teddy">
+                    <div class="product__text">
+                        <p class="product__name">Teddy - 10.5 Orso</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$24</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__dino" src="./images/second-product.jpeg" alt="cute dino">
+                    <div class="product__text">
+                        <p class="product__name">Trixy - 8.5 Tricerapoto</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$30</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__bunny" src="./images/third-product.jpeg" alt="cute bunny">
+                    <div class="product__text">
+                        <p class="product__name">Bunny - 10.5 Coniglio</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$25</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__giraffe" src="./images/fourth-product.jpeg" alt="cute giraffe">
+                    <div class="product__text">
+                        <p class="product__name">Gigi - 12.5 Giraffa</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$30</p>
+                    </div>
+
+                </li>
+            </ul>
+            <div class="products__button"><a class="products__button-link" href="#">Переглянути зараз</a></div>
+        </div>
+    </section>
+
+
+    <section class="service">
+        <div class="container">
+            <div class="service__title">
+                <h1 class="service__title-text">Ось наші послуги для вас</h1>
+            </div>
+            <ul class="service__list">
+                <li class="service__item">
+                    <p class="service__item-title delivery__service">Безпечна доставка</p>
+                    <p class="service__item-text">
+                        Ми пропонуємо швидку доставку, щоб ваша м’яка іграшка прибула до місця
+                        призначення в ідеальному стані.
+                    </p>
+                </li>
+                <li class="service__item">
+                    <p class="service__item-title quality__service">Якісні матеріали</p>
+                    <p class="service__item-text">
+                        Ми прагнемо використовувати якісні матеріали для наших м’яких іграшок,
+                        щоб гарантувати вам, що продукт прослужить вам довго.
+                    </p>
+                </li>
+                <li class="service__item">
+                    <p class="service__item-title crown__service">Відмінний сервіс</p>
+                    <p class="service__item-text">
+                        Наша служба підтримки готова відповісти на всі ваші запитання та
+                        вирішити будь-які проблеми.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="products__title">
+                <h1 class="products__title-text popular__products-title"><i>Найпопулярніші іграшки</i></h1>
+            </div>
+            <ul class="products__list">
+                <li class="products__item">
+                    <img class="product__image product__butterfly" src="./images/butterfly__plushie.jpeg"
+                        alt="cute butterfly">
+                    <div class="product__text">
+                        <p class="product__name">Aria- 11.5 Farfalla</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$35</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__dragon" src="./images/green__dragon.jpeg" alt="cute dragon">
+                    <div class="product__text">
+                        <p class="product__name">Blaze - 13.5 Drago</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$25</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__bunny-light" src="./images/bunny__plushie.jpeg"
+                        alt="cute bunny">
+                    <div class="product__text">
+                        <p class="product__name">Clover - 10.5 Lepre</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$30</p>
+                    </div>
+
+                </li>
+                <li class="products__item">
+                    <img class="product__image product__elephant" src="./images/elephant__plushie.jpeg"
+                        alt="cute elephant">
+                    <div class="product__text">
+                        <p class="product__name">Jumbo - 10.5 Elefante</p>
+                        <span class="product__rated"></span>
+                        <span class="product__unrated"></span>
+                        <p class="product__price">$30</p>
+                    </div>
+
+                </li>
+            </ul>
+            <div class="products__button"><a class="products__button-link" href="#">Переглянути зараз</a></div>
+        </div>
+    </section>
+
+    <section class="offers">
+        <div class="container">
+            <h1 class="offers__title">«Додайте вашій м'якій іграшці особливого штриху»</h1>
+            <ul class="offers__list">
+                <li class="offers__card offers__img">
+                    <img src="./images/card-offer-img.jpeg" alt="cute room" class="card__img">
+                </li>
+                <li class="offers__card offers__card-blue">
+                    <div class="card__content">
+                        <p class="card__title">Спеціальні пропозиції тижня</p>
+                        <p class="card__text">Перегляньте наші спеціальні пропозиції! Ви знайдете неймовірні знижки на
+                            деякі
+                            з наших найпопулярніших плюшевих іграшок. Але поспішайте, пропозиції діють обмежено!</p>
+                        <button class="card__button blue__card-button">
+                            <a class="card__link" href="#">Дізнатися більше</a>
+                        </button>
+                    </div>
+
+                </li>
+                <li class="offers__card offers__img">
+                    <img src="./images/card-custom-img.jpeg" alt="nice room" class="card__img">
+                </li>
+                <li class="offers__card offers__card-brown">
+                    <div class="card__content">
+                        <p class="card__title">Персоналізуйте свою плюшеву іграшку разом з нами!</p>
+                        <p class="card__text">Хочете зробити свою іграшку ще більш особливою? Персоналізуйте його
+                            іменем або датою! Ми пропонуємо послуги індивідуального налаштування багатьох наших м’яких
+                            іграшок, роблячи їх унікальними та незабутніми.</p>
+                        <button class="card__button brown__card-button">
+                            <a class="card__link" href="#">Дізнатися більше</a>
+                        </button>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="feedbacks">
+        <div class="container">
+            <div class="feedbacks__title">
+                <h1>
+                    <i>Відгуки наших клієнтів</i>
+                </h1>
+            </div>
+            <ul class="feedbacks__list">
+                <li class="feedback">
+                    <p class="feedback__text">
+                        «Цей зайчик чудовий! Якість матеріалу виняткова, а його м'якість робить
+                        його ідеальним для обіймів"
+                    </p>
+                    <span class="user__m-avatar"></span>
+                    <div class="feedback__user">
+                        <p class="feedback__username">Марія Циполларі</p>
+                        <p class="user__role">Домогосподарка, матір</p>
+                    </div>
+                </li>
+                <li class="feedback">
+                    <p class="feedback__text">
+                        «Мені не дуже сподобався матеріал. Він здається дешевим, а шви занадто великі»
+                    </p>
+                    <span class="user__c-avatar"></span>
+                    <div class="feedback__user">
+                        <p class="feedback__username">Клаудіо Болді</p>
+                        <p class="user__role">Робітник, батько</p>
+                    </div>
+                </li>
+                <li class="feedback">
+                    <p class="feedback__text">
+                        «Сама іграшка високої якості, з продуманими типами зшивання та м’якою, пухнастою на дотик
+                        текстурою. Дитина дуже задоволена, рекомендую
+                        цей магазин!"
+                    </p>
+                    <span class="user__j-avatar"></span>
+                    <div class="feedback__user">
+                        <p class="feedback__username">Джессіка Мерла</p>
+                        <p class="user__role">Пенсіонерка, бабуся</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="newsteller">
+            <div class="container">
+                <div class="newsteller__content">
+                    <div class="newsteller__text">
+                        <h1 class="newsteller__title">Бюлетень TeddyShop</h1>
+                        <p class="newsteller__subtitle">
+                            Будьте в курсі останніх новин,
+                            акцій та спеціальних пропозицій.
+                        </p>
+                    </div>
+                    <div class="registration">
+                        <div class="registration__content">
+                            <input class="e-mail__input" type="text" placeholder="Введіть свій e-mail">
+                            <button class="registration__button">Зареєструватись</button>
+                        </div>
+                        <p class="registration__policy">Реєструючись, ви приймаєте нашу
+                            <a href="#"> Політику конфіденційності</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="divider"></div>
+        </div>
+
+        <div class="links">
+            <div class="container">
+                <ul class="main__list">
+
+                    <li class="main__item">
+                        <p class="main__item-title">Допомога</p>
+                        <ul class="secondary__list">
+                            <li class="secondary__item">
+                                <a href="#">Повернення</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Часті питання</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Безпечна оплата</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Конфіденційність і безпека</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="main__item">
+                        <p class="main__item-title">Про нас</p>
+                        <ul class="secondary__list">
+                            <li class="secondary__item">
+                                <a href="#">Безпека та придатність</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Загальні T $ C</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Карта сайту</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Чесні торги</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="main__item">
+                        <p class="main__item-title">Підтримка</p>
+                        <ul class="secondary__list">
+                            <li class="secondary__item">
+                                <a href="#">Мій рахунок</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Зв'яжіться з нами</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li class="secondary__item">
+                                <a href="#">Передзвоніть</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="main__item">
+                        <p class="main__item-title">Наші соц мережі</p>
+                        <ul class="secondary__list">
+                            <li class="secondary__item">
+                                <a href="#">Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="credits">
+            <div class="container">
+                <div class="credits__content">
+                    <div class="footer__logo">
+                        <a href="#">
+                            <img class="logo" src="./icons/logo.svg" alt="Teddy Shop">
+                        </a>
+                    </div>
+                    <p class="credits__text">© 2023 TeddyShop. Всі права захищені.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

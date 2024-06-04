@@ -1,0 +1,48 @@
+<svg width="61.000000" height="61.000000" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_1_993_dd" x="0.000000" y="0.000000" width="61.000000" height="61.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip1_996">
+			<rect id="Progetto senza titolo (5) 1" width="56.000000" height="42.000000" transform="translate(2.000000 5.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_995">
+			<rect id="Progetto senza titolo (3) 1" width="64.041664" height="43.062500" transform="translate(-1.521484 5.520752)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip1_993">
+			<rect id="Icon / Relume" rx="26.000000" width="52.000000" height="52.000000" transform="translate(4.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_1_993_dd)">
+		<rect id="Icon / Relume" rx="26.000000" width="52.000000" height="52.000000" transform="translate(4.500000 0.500000)" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<g clip-path="url(#clip1_993)">
+			<rect id="Progetto senza titolo (3) 1" width="64.041664" height="43.062500" transform="translate(-1.521484 5.520752)" fill="#FFFFFF" fill-opacity="1.000000"/>
+			<g clip-path="url(#clip1_995)">
+				<rect id="Progetto senza titolo (5) 1" width="56.000000" height="42.000000" transform="translate(2.000000 5.000000)" fill="#FFFFFF" fill-opacity="0"/>
+				<g clip-path="url(#clip1_996)">
+					<mask id="mask1_998" mask-type="alpha" maskUnits="userSpaceOnUse" x="14.412109" y="34.529785" width="33.164062" height="4.590820">
+						<path id="Vector" d="M14.41 34.52L47.57 34.52L47.57 39.12L14.41 39.12L14.41 34.52Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+					</mask>
+					<g mask="url(#mask1_998)">
+						<path id="Vector" d="M30.98 34.58C30.98 34.58 30.98 34.58 30.98 34.58C30.98 34.58 30.98 34.58 30.98 34.58C30.97 34.58 30.97 34.58 30.96 34.58C22.37 34.58 16.46 35.78 14.52 36.85C16.47 37.92 22.37 39.11 30.95 39.12L31.01 39.12C39.59 39.11 45.49 37.92 47.44 36.85C45.5 35.78 39.59 34.58 31 34.58C30.99 34.58 30.99 34.58 30.98 34.58Z" fill="#3A2215" fill-opacity="1.000000" fill-rule="nonzero"/>
+					</g>
+					<mask id="mask1_1003" mask-type="alpha" maskUnits="userSpaceOnUse" x="7.179688" y="14.504883" width="47.614258" height="21.693970">
+						<path id="Vector" d="M7.17 14.5L54.79 14.5L54.79 36.19L7.17 36.19L7.17 14.5Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+					</mask>
+				</g>
+			</g>
+			<path id="Vector" d="M52.42 23.89C51.99 24.24 52.05 24.53 51.93 24.85C51.87 25.03 51.79 25.26 51.47 25.53C51.47 25.53 47.31 29.75 44.52 28.84C40.4 27.51 42.66 22.31 42.66 22.31L43.09 21.4C43.3 20.95 43.93 20.76 44.19 20.61C44.65 20.33 44.81 20.42 45.08 19.83C45.53 18.88 45.11 17.18 44.98 16.83C44.58 17.03 42.94 17.92 42.49 18.88C42.22 19.47 42.56 19.81 42.69 20.26C42.76 20.51 42.87 20.82 42.66 21.28L42.23 22.19C42.23 22.19 39.69 27.18 35.9 27.21C31.27 27.25 31.25 19.88 31.25 19.88C31.25 19.34 31.54 19.04 31.74 18.8C32.12 18.37 32.68 18.11 32.68 17.4C32.68 16.29 31.39 14.91 31.01 14.53L31.01 14.52C31.01 14.52 31 14.51 30.99 14.5C30.99 14.5 30.99 14.5 30.99 14.5C30.98 14.5 30.98 14.5 30.98 14.5C30.98 14.5 30.98 14.5 30.98 14.5C30.98 14.5 30.98 14.5 30.98 14.5C30.97 14.51 30.96 14.52 30.95 14.52L30.95 14.53C30.58 14.91 29.28 16.29 29.28 17.4C29.28 18.11 29.85 18.37 30.22 18.8C30.42 19.04 30.71 19.34 30.71 19.88C30.71 19.88 30.7 27.25 26.06 27.21C22.27 27.18 19.73 22.19 19.73 22.19L19.31 21.28C19.09 20.82 19.2 20.51 19.27 20.26C19.4 19.81 19.75 19.47 19.47 18.88C19.02 17.92 17.38 17.03 16.99 16.83C16.85 17.18 16.43 18.88 16.88 19.83C17.16 20.42 17.31 20.33 17.78 20.61C18.03 20.76 18.66 20.95 18.88 21.4L19.3 22.31C19.3 22.31 21.57 27.51 17.44 28.84C14.65 29.75 10.49 25.53 10.49 25.53C10.17 25.26 10.1 25.03 10.03 24.85C9.91 24.53 9.98 24.24 9.54 23.89C8.8 23.28 7.47 22.92 7.19 22.85C7.26 23.11 7.84 24.36 8.52 24.94C8.94 25.3 9.33 25.18 9.69 25.39C13.64 27.77 13.95 36.05 13.95 36.05L13.99 36.05C14.54 34.79 21.92 33.5 30.96 33.5C30.96 33.5 31 33.5 31.01 33.5C40.04 33.5 47.43 34.79 47.98 36.05L48.01 36.05C48.01 36.05 48.33 27.77 52.28 25.39C52.63 25.18 53.03 25.3 53.45 24.94C54.13 24.36 54.7 23.11 54.78 22.85C54.5 22.92 53.16 23.28 52.42 23.89Z" fill="#3A2215" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+		<rect id="Icon / Relume" rx="26.000000" width="52.000000" height="52.000000" transform="translate(4.500000 0.500000)" stroke="#000000" stroke-opacity="0" stroke-width="1.000000"/>
+	</g>
+</svg>
